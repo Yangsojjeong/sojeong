@@ -1,4 +1,3 @@
-
 public class ColorPointEx {
 
 	public static void main(String[] args) {
@@ -14,3 +13,4 @@ public class ColorPointEx {
 	}
 
 }
+

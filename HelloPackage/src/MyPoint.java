@@ -1,4 +1,3 @@
-
 class MyPoint {
 	private int x,y;
 	public void set(int x, int y) {
@@ -11,3 +10,5 @@ class MyPoint {
 	}
 
 }
+
+

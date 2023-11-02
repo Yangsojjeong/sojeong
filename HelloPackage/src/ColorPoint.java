@@ -1,4 +1,3 @@
-
 class ColorPoint extends MyPoint {
 	private String color;
 	
