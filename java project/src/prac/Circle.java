@@ -1,131 +1,60 @@
 package prac;
 
-
-
 public class Circle {
-
 	private final double PI = 3.14 ;
-
-	
-
 	private int radius;     //
-
 	private String name;     //
 
-	
-
-	/*public int radius;
-
-	public String name; */
-
-	
-
 	public Circle() {
-
 		this(1, "random pizza");
-
-		
-
 	}
-
-	
 
 	public Circle(Circle c) {
-
 		this.radius = c.radius;
-
 		this.name = new String(c.name);
-
 	}
 
-	
 
 	public Circle(int r, String n) {
-
 		this.initialize(r, n);
-
 	}
 
-	
 
 	private void initialize(int r, String n) {
-
 		this.radius =  r;
-
 		this.name = n;
-
 	}      //private
 
-	
-
-	/*public void initialize(int r, String n) {
-
-		this.radius =  r;
-
-		this.name = n;
-
-	}*/
-
-	
 
 	public void setRadius(int radius) {
-
 		this.radius = radius;
-
 	}
-
-	
 
 	public int getRadius() {
-
 		return this.radius;
-
 	}
-
-	
 
 	public void setName(String name) {
-
 		this.name = name;
-
 	}
-
-	
 
 	public String getName() {
-
 		return this.name;
-
 	}
-
-	
 
 	public double getPI() {
-
 		return this.PI;
-
 	}
-
-	
 
 	public double getArea() {
-
 		return PI * radius * radius;
-
 	} //입력한 radius가 여기에 접근해서 원의 면적을 구함
 
-	
-
 	public String toString() {
-
 		return "name : " + getName() + " radius : " + getRadius();
-
 	}
 
-	
-
 	public static void main(String[] args) {
-
 		System.out.println("Class and Object Practice");
 
 		
