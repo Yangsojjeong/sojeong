@@ -14,6 +14,9 @@ public class BorderLayoutEx extends JFrame {
 		c.add(new JButton("sub"), BorderLayout.SOUTH);
 		c.add(new JButton("mul"), BorderLayout.EAST);
 		c.add(new JButton("div"), BorderLayout.WEST);
+		
+		setSize(300,200);
+		setVisible(true);
 	}
 
 	public static void main(String[] args) {
